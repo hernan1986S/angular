@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { ContenidoComponent } from './components/contenido/contenido.component';
+import { DirectivasComponent } from './components/directivas/directivas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     ToolbarComponent,
-    ContenidoComponent
+    ContenidoComponent,
+    DirectivasComponent,
+   
+    
   ],
   imports: [
     BrowserModule,
