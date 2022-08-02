@@ -12,3 +12,17 @@
 <hr>
 <h3 [ngClass]="variable7 < 4 ? 'texto-error' : 'texto-exito'">Pamela: {{variable7 }}</h3>
 <hr>
+<h2>Lista de  Alumnos y sus notas</h2>
+  <ul>
+    <li *ngFor="let nombre of ['Fabian 8 ', 'Lucas 3 ', 'Jimena 5 ', 'Gabriela 8 ', 'Milo 3 ', 'Pamela 10 ']">
+        {{ nombre }}
+    </li>
+  </ul>
+  <hr>
+  <h2> Lista Alumnos </h2>
+  <p *ngIf="variable7 > 5">
+    La mejor nota es la de Pamela  {{ variable7 }}
+  </p>
+  <hr>
+  
+

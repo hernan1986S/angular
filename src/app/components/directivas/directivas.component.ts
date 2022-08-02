@@ -11,6 +11,7 @@ export class DirectivasComponent implements OnInit {
   variable6: number = 3;
   variable7: number = 10;
   variable2: string = 'Agustin'
+  
 
   constructor() { }
 
