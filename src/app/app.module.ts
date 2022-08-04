@@ -8,6 +8,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { ContenidoComponent } from './components/contenido/contenido.component';
 import { DirectivasComponent } from './components/directivas/directivas.component';
+import { FormularioReactivoComponent } from './components/formulario-reactivo/formulario-reactivo.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,14 +19,15 @@ import { DirectivasComponent } from './components/directivas/directivas.componen
     ToolbarComponent,
     ContenidoComponent,
     DirectivasComponent,
+    FormularioReactivoComponent,
    
-    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    
-    
+    AppRoutingModule,
+    ReactiveFormsModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
