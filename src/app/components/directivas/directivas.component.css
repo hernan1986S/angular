@@ -1,6 +1,38 @@
+
 .texto-error{
     color: #7a0000;
  }
 .texto-exito{
     color: rgba(12, 117, 0, 1);
+}
+h1{
+  padding: 2px;
+  color: #909090;
+}
+h2{
+  color: darkgrey;
+  
+}
+.main-container
+{
+  margin: 150px auto;
+  width: 600px;
+  background-color: #909090;
+}
+h2{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+h3{
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+
+}
+p{
+  text-align: center;
+  background-color: #909090;
+
 }

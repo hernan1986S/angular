@@ -1,28 +1,31 @@
-<h1>Lista de Alumnos</h1>
-<h2>Alumnos y sus Notas </h2>
-<h3 [ngClass]="variable1 < 5 ? 'texto-error' : 'texto-exito'">Fabian: {{variable1 }}</h3>
-<hr>
-<h3 [ngClass]="variable6 < 12 ? 'texto-error' : 'texto-exito'">Lucas: {{variable6 }}</h3>
-<hr>
-<h3 [ngClass]="variable4 < 3 ? 'texto-error' : 'texto-exito'">Jimena: {{variable4 }}</h3>
-<hr>
-<h3 [ngClass]="variable1 < 1 ? 'texto-error' : 'texto-exito'">Gabriela: {{variable1 }}</h3>
-<hr>
-<h3 [ngClass]="variable6 < 12 ? 'texto-error' : 'texto-exito'">Milo: {{variable6 }}</h3>
-<hr>
-<h3 [ngClass]="variable7 < 4 ? 'texto-error' : 'texto-exito'">Pamela: {{variable7 }}</h3>
-<hr>
-<h2>Lista de  Alumnos y sus notas</h2>
-  <ul>
-    <li *ngFor="let nombre of ['Fabian 8 ', 'Lucas 3 ', 'Jimena 5 ', 'Gabriela 8 ', 'Milo 3 ', 'Pamela 10 ']">
-        {{ nombre }}
-    </li>
-  </ul>
-  <hr>
-  <h2> Lista Alumnos </h2>
-  <p *ngIf="variable7 > 5">
-    La mejor nota es la de Pamela  {{ variable7 }}
-  </p>
-  <hr>
-  
+<body class="main-container">
+  <h1>Lista de Alumnos</h1>
+  <h2>Alumnos y sus Notas </h2>
+  <h3 [ngClass]="variable1 < 5 ? 'texto-error' : 'texto-exito'">Fabian: {{variable1 }}</h3>
+
+  <h3 [ngClass]="variable6 < 12 ? 'texto-error' : 'texto-exito'">Lucas: {{variable6 }}</h3>
+
+  <h3 [ngClass]="variable4 < 3 ? 'texto-error' : 'texto-exito'">Jimena: {{variable4 }}</h3>
+
+  <h3 [ngClass]="variable1 < 1 ? 'texto-error' : 'texto-exito'">Gabriela: {{variable1 }}</h3>
+
+  <h3 [ngClass]="variable6 < 12 ? 'texto-error' : 'texto-exito'">Milo: {{variable6 }}</h3>
+
+  <h3 [ngClass]="variable7 < 4 ? 'texto-error' : 'texto-exito'">Pamela: {{variable7 }}</h3>
+
+  <h2>Lista de  Alumnos y sus notas</h2>
+    <ul>
+      <li *ngFor="let nombre of ['Fabian 8 ', 'Lucas 3 ', 'Jimena 5 ', 'Gabriela 8 ', 'Milo 3 ', 'Pamela 10 ']">
+          {{ nombre }}
+      </li>
+    </ul>
+
+    <h2> Lista Alumnos </h2>
+    <p *ngIf="variable7 > 5">
+      La mejor nota es la de Pamela  {{ variable7 }}
+    </p>
+    
+</body>
+
+
 

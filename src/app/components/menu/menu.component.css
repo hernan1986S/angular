@@ -1,7 +1,9 @@
-.navbar{
-    background-color: aqua;
-    height: 500px;
+h1{
+  background-color: #126157;
+  color: #fff;
 }
-
+.navbar-light{
+  background-color: #e6dfcc
+}
 
 
